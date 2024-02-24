@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "exampleproject"
+version = "0.0.1"
+description = ""
+authors = []
+readme = "README.md"
+packages = [{include = "exampleproject"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+functions-framework = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
